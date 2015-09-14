@@ -49,12 +49,12 @@ First, lets create our basic `app.html`. This just creates two containers, one w
 	<require from="inspector"></require>
 	
 	<!-- here's our clickables -->
-	<div class='clickable stuff'>
-		<button click.delegate="inspectMe($event, {type:foo, .. }) />
-		<button click.delegate="inspectMe($event, {type:bar, progress:42, .. }) />
+	<div class="clickable stuff">
+		<button class="btn" click.delegate="inspectMe($event, {type:foo, .. })">FOO</button>
+		<button class="btn" click.delegate="inspectMe($event, {type:bar, progress:42, .. })" >BAR</button>
 	</div>
 	
-	<!-- and here's our custom inspector element (loaded above) -->
+	<!-- and here's our custom inspector element (loaded by the ~require~ above) -->
 	<inspector></inspector>
 </div>
 ```
