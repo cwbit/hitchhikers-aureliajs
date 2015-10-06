@@ -1,5 +1,7 @@
 # hitchhikers-aureliajs
-Guide to [AureliaJS](http://aurelia.io) - Part of the Hitchhikers Guide: a collection of snippets, tutorials and opinionated best practices for working with the (awesome) [Aurelia](http://aurelia.io) (JS) framework.
+This is just a collection of snippets, tricks, and (opinionated) best practices for developing with the (awesome) [Aurelia](http://aurelia.io) (JS) framework.
+
+It's mostly here so I don't forget how I did stuff - if you find it useful, great! If you wanna submit something, even better! Just submit a PR :D
 
 #### Tutorials
 
